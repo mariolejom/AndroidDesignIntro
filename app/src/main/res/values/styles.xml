@@ -6,6 +6,16 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">#FFF</item>
+    </style>
+
+    <style name="AppTheme.Red" parent="AppTheme">
+        <item name="android:textColor">#FF0000</item>
+    </style>
+
+    <style name="AppTheme.Green" parent="AppTheme">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:background">#FF0000</item>
     </style>
 
     <style name="AppTheme.EditTextStyle" parent="AppTheme">
