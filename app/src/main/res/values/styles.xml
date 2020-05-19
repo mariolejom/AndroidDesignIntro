@@ -10,16 +10,17 @@
     </style>
 
     <style name="AppTheme.Red" parent="AppTheme">
-        <item name="android:textColor">#FF0000</item>
+        <item name="android:textColor">@color/red</item>
     </style>
 
     <style name="AppTheme.Green" parent="AppTheme">
         <item name="android:textColor">@color/colorPrimaryDark</item>
-        <item name="android:background">#FF0000</item>
+        <item name="android:background">@color/red</item>
     </style>
 
     <style name="AppTheme.EditTextStyle" parent="AppTheme">
         <item name="android:textSize">16sp</item>
         <item name="android:drawablePadding">12dp</item>
+        <item name="android:layout_margin">@dimen/margin_default</item>
     </style>
 </resources>
